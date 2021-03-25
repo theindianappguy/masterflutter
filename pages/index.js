@@ -146,11 +146,13 @@ const VideoTile = styled.div`
   cursor: pointer;
   margin-bottom: 3rem;
 `;
-const VideoTileImage = styled.img`
-  width: 100%;
-  max-width: 600px;
-  object-fit: cover;
-  border-radius: 16px;
+const VideoTileImage = styled.a`
+  img {
+    width: 100%;
+    max-width: 600px;
+    object-fit: cover;
+    border-radius: 16px;
+  }
 `;
 
 const VideoTileImagePlayIcon = styled.img`
@@ -284,7 +286,12 @@ export default function Home() {
         <Videos>
           <VideoTile>
             <VideoTileImagePlayIcon src='https://firebasestorage.googleapis.com/v0/b/memorygame247.appspot.com/o/play-button.svg?alt=media&token=a9681e4c-143f-44ee-b45f-26ab9db0ab9d' />
-            <VideoTileImage src='https://user-images.githubusercontent.com/55942632/112434695-e059dc00-8d69-11eb-9a5b-93cbcfa5a482.jpg' />
+            <VideoTileImage
+              href='https://www.youtube.com/watch?v=aaGcER1uUoE&list=PLBxWkM8PLHcpeDOAkvzH5ROrE4uJ9fa7Q'
+              target='_blank'
+            >
+              <img src='https://user-images.githubusercontent.com/55942632/112434695-e059dc00-8d69-11eb-9a5b-93cbcfa5a482.jpg' />
+            </VideoTileImage>
             <AboutCourseTitle>
               Build a Flutter News App with NewsApi Org
             </AboutCourseTitle>
@@ -310,7 +317,12 @@ export default function Home() {
 
           <VideoTile>
             <VideoTileImagePlayIcon src='https://firebasestorage.googleapis.com/v0/b/memorygame247.appspot.com/o/play-button.svg?alt=media&token=a9681e4c-143f-44ee-b45f-26ab9db0ab9d' />
-            <VideoTileImage src='https://user-images.githubusercontent.com/55942632/112438936-814a9600-8d6e-11eb-881e-d3235114e0e6.jpeg' />
+            <VideoTileImage
+              href='https://www.youtube.com/watch?v=E9gyL-UcQco&list=PLBxWkM8PLHcpeDOAkvzH5ROrE4uJ9fa7Q&index=2'
+              target='_blank'
+            >
+              <img src='https://user-images.githubusercontent.com/55942632/112438936-814a9600-8d6e-11eb-881e-d3235114e0e6.jpeg' />
+            </VideoTileImage>
             <AboutCourseTitle>
               Build a Flutter Firebase Blog App
             </AboutCourseTitle>
@@ -336,7 +348,14 @@ export default function Home() {
 
           <VideoTile>
             <VideoTileImagePlayIcon src='https://firebasestorage.googleapis.com/v0/b/memorygame247.appspot.com/o/play-button.svg?alt=media&token=a9681e4c-143f-44ee-b45f-26ab9db0ab9d' />
-            <VideoTileImage src='https://user-images.githubusercontent.com/55942632/112452073-38014300-8d7c-11eb-921d-1b376a89ae2d.jpg' />
+
+            <VideoTileImage
+              href='https://www.youtube.com/watch?v=EKdAU3l_0gA&list=PLBxWkM8PLHcpeDOAkvzH5ROrE4uJ9fa7Q&index=3'
+              target='_blank'
+            >
+              <img src='https://user-images.githubusercontent.com/55942632/112452073-38014300-8d7c-11eb-921d-1b376a89ae2d.jpg' />
+            </VideoTileImage>
+
             <AboutCourseTitle>
               Build a Wallpaper App with Flutter
             </AboutCourseTitle>
@@ -367,7 +386,14 @@ export default function Home() {
           {/*  */}
           <VideoTile>
             <VideoTileImagePlayIcon src='https://firebasestorage.googleapis.com/v0/b/memorygame247.appspot.com/o/play-button.svg?alt=media&token=a9681e4c-143f-44ee-b45f-26ab9db0ab9d' />
-            <VideoTileImage src='https://user-images.githubusercontent.com/55942632/81176283-938adc80-8fc2-11ea-8d59-7392205a1ed0.png' />
+
+            <VideoTileImage
+              href='https://www.youtube.com/watch?v=FTju8w4zEno&list=PLBxWkM8PLHcpeDOAkvzH5ROrE4uJ9fa7Q&index=4'
+              target='_blank'
+            >
+              <img src='https://user-images.githubusercontent.com/55942632/81176283-938adc80-8fc2-11ea-8d59-7392205a1ed0.png' />
+            </VideoTileImage>
+
             <AboutCourseTitle>
               Build Chat App with Flutter & Firebase Firestore
             </AboutCourseTitle>
@@ -398,7 +424,13 @@ export default function Home() {
           {/*  */}
           <VideoTile>
             <VideoTileImagePlayIcon src='https://firebasestorage.googleapis.com/v0/b/memorygame247.appspot.com/o/play-button.svg?alt=media&token=a9681e4c-143f-44ee-b45f-26ab9db0ab9d' />
-            <VideoTileImage src='https://user-images.githubusercontent.com/55942632/112452816-08066f80-8d7d-11eb-99fa-49bfe26da6ff.png' />
+            <VideoTileImage
+              href='https://www.youtube.com/watch?v=M7z-Zctu6vA&list=PLBxWkM8PLHcpeDOAkvzH5ROrE4uJ9fa7Q&index=8'
+              target='_blank'
+            >
+              <img src='https://user-images.githubusercontent.com/55942632/112452816-08066f80-8d7d-11eb-99fa-49bfe26da6ff.png' />
+            </VideoTileImage>
+
             <AboutCourseTitle>
               Build ToDo Web App Made with Flutter & Firebase
             </AboutCourseTitle>
@@ -417,7 +449,7 @@ export default function Home() {
               </VideoTileIcon>
 
               <VideoTileIcon
-                href='https://www.youtube.com/watch?v=M7z-Zctu6vA&list=PLBxWkM8PLHcqtJvdYz0rR23XblqiHHtaT'
+                href='https://www.youtube.com/watch?v=M7z-Zctu6vA&list=PLBxWkM8PLHcpeDOAkvzH5ROrE4uJ9fa7Q&index=8'
                 target='_blank'
               >
                 <img src='https://firebasestorage.googleapis.com/v0/b/memorygame247.appspot.com/o/youtube.svg?alt=media&token=b24a4fa1-ca6d-4fc9-b86d-ea11591541c5' />
