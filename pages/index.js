@@ -226,9 +226,13 @@ export default function Home() {
             </div>
           </Title>
           <Desc>
-            A free video course for building apps for android, ios and web with
-            flutter and firebase. Starting from scratch to deploying it live
-            with 5 Projects.
+            Learn Dart & Flutter by Developing 5 Real World Apps From Scratch,
+            Absolutely FREE!
+          </Desc>
+          <Desc>
+            Learn Flutter getting starting with Basic Widgets to Fetching Data
+            from Internet using API, using Firebase Database and hosting app to
+            flutter web all from scratch step by step.
           </Desc>
           <Button href='#courseOverview'>Watch Now →</Button>
         </Header>
@@ -240,22 +244,20 @@ export default function Home() {
             Hundreds of customers, thousands of views.
           </AboutCourseTitle>
           <p>
-            After teaching hundreds of developers around the world, I've made
-            this course free. Why? Learning Next.js will transform your career
-            as a front-end developer.
+            This 5 Day Flutter Bootcamp course projects are more than enough to
+            get you entry level job as flutter app developer
           </p>
 
-          <p>
-            With almost five hours of content, this course will kickstart your
-            career as a modern front-end developer. If you're familiar with
-            basic HTML/CSS, JavaScript, and React – you've found the right
-            course.
-          </p>
+          <p>What can you expect from this Free Course ?</p>
 
           <ol>
-            <li>Somthign awesome</li>
-            <li>More awesome</li>
-            <li>Make money</li>
+            <li>Get Experience with third-party libraries and APIs.</li>
+            <li>Developing Android & iOS apps using Dart & Flutter</li>
+            <li>Learn about Basic widgets in Flutter</li>
+            <li>Firebase CRUD Operations</li>
+            <li>Google Sign In & Email Password Sign In</li>
+            <li>Host Flutter App on Web</li>
+            <li>and much more.</li>
           </ol>
         </AboutCourse>
       </AboutCourseContainer>
