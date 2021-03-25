@@ -209,6 +209,10 @@ const AboutMe = styled.div`
 export default function Home() {
   return (
     <HomeContainer>
+      <Head>
+        <title>Learn & Master Flutter</title>
+        <meta name='viewport' content='initial-scale=1.0, width=device-width' />
+      </Head>
       <TopStrip></TopStrip>
       <NavbarContainer>
         <NavbarDiv></NavbarDiv>
