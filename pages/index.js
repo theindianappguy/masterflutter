@@ -289,11 +289,14 @@ export default function Home() {
             </p>
 
             <div>
-              <VideoTileIcon href='http://github.com/theindianappguy/FlutterNewsApp'>
+              <VideoTileIcon
+                href='http://github.com/theindianappguy/FlutterNewsApp'
+                target='_blank'
+              >
                 <img src='https://firebasestorage.googleapis.com/v0/b/memorygame247.appspot.com/o/github-white.svg?alt=media&token=9372cc8a-3752-473d-aabb-55f4b831dc19' />
               </VideoTileIcon>
 
-              <VideoTileIcon href='http://github.com/theindianappguy/FlutterNewsApp'>
+              <VideoTileIcon href='youtu.be/aagcer1uuoe' target='_blank'>
                 <img src='https://firebasestorage.googleapis.com/v0/b/memorygame247.appspot.com/o/youtube.svg?alt=media&token=b24a4fa1-ca6d-4fc9-b86d-ea11591541c5' />
               </VideoTileIcon>
             </div>
@@ -312,11 +315,14 @@ export default function Home() {
             </p>
 
             <div>
-              <VideoTileIcon href='http://github.com/theindianappguy/FlutterNewsApp'>
+              <VideoTileIcon
+                href='https://github.com/theindianappguy/flutter_blog'
+                target='_blank'
+              >
                 <img src='https://firebasestorage.googleapis.com/v0/b/memorygame247.appspot.com/o/github-white.svg?alt=media&token=9372cc8a-3752-473d-aabb-55f4b831dc19' />
               </VideoTileIcon>
 
-              <VideoTileIcon href='http://github.com/theindianappguy/FlutterNewsApp'>
+              <VideoTileIcon href='youtu.be/kzbdhx8inya' target='_blank'>
                 <img src='https://firebasestorage.googleapis.com/v0/b/memorygame247.appspot.com/o/youtube.svg?alt=media&token=b24a4fa1-ca6d-4fc9-b86d-ea11591541c5' />
               </VideoTileIcon>
             </div>
@@ -324,45 +330,90 @@ export default function Home() {
 
           <VideoTile>
             <VideoTileImagePlayIcon src='https://firebasestorage.googleapis.com/v0/b/memorygame247.appspot.com/o/play-button.svg?alt=media&token=a9681e4c-143f-44ee-b45f-26ab9db0ab9d' />
-            <VideoTileImage src='https://user-images.githubusercontent.com/55942632/112438936-814a9600-8d6e-11eb-881e-d3235114e0e6.jpeg' />
+            <VideoTileImage src='https://user-images.githubusercontent.com/55942632/112452073-38014300-8d7c-11eb-921d-1b376a89ae2d.jpg' />
             <AboutCourseTitle>
-              Build a Flutter Firebase Blog App
+              Build a Wallpaper App with Flutter
             </AboutCourseTitle>
             <p>
-              So how was building the News App yesterday, today we will learn
-              about databases specifically firebase, It's one of most popular
-              database and its totally free to get started so lets learn.
+              Do you use default wallpaper in you mobile most probably not we
+              all like to use custom images well today we are going to make
+              wallpaper app where we will be able to browse wallpaper by search
+              and categories or the explore page.
             </p>
 
             <div>
-              <VideoTileIcon href='http://github.com/theindianappguy/FlutterNewsApp'>
+              <VideoTileIcon
+                href='https://github.com/theindianappguy/wallpaperhub'
+                target='_blank'
+              >
                 <img src='https://firebasestorage.googleapis.com/v0/b/memorygame247.appspot.com/o/github-white.svg?alt=media&token=9372cc8a-3752-473d-aabb-55f4b831dc19' />
               </VideoTileIcon>
 
-              <VideoTileIcon href='http://github.com/theindianappguy/FlutterNewsApp'>
+              <VideoTileIcon
+                href='https://www.youtube.com/watch?v=EKdAU3l_0gA&list=PLBxWkM8PLHcpeDOAkvzH5ROrE4uJ9fa7Q&index=3'
+                target='_blank'
+              >
                 <img src='https://firebasestorage.googleapis.com/v0/b/memorygame247.appspot.com/o/youtube.svg?alt=media&token=b24a4fa1-ca6d-4fc9-b86d-ea11591541c5' />
               </VideoTileIcon>
             </div>
           </VideoTile>
 
+          {/*  */}
           <VideoTile>
             <VideoTileImagePlayIcon src='https://firebasestorage.googleapis.com/v0/b/memorygame247.appspot.com/o/play-button.svg?alt=media&token=a9681e4c-143f-44ee-b45f-26ab9db0ab9d' />
-            <VideoTileImage src='https://user-images.githubusercontent.com/55942632/112438936-814a9600-8d6e-11eb-881e-d3235114e0e6.jpeg' />
+            <VideoTileImage src='https://user-images.githubusercontent.com/55942632/81176283-938adc80-8fc2-11ea-8d59-7392205a1ed0.png' />
             <AboutCourseTitle>
-              Build a Flutter Firebase Blog App
+              Build Chat App with Flutter & Firebase Firestore
             </AboutCourseTitle>
             <p>
-              So how was building the News App yesterday, today we will learn
-              about databases specifically firebase, It's one of most popular
-              database and its totally free to get started so lets learn.
+              For chatting do you use Messenger, whatsapp, telegram, wechat..etc
+              well we love chatting being able to instantly message and reply is
+              a amazing thing connecting people all over the world So today
+              let's build a chat app with flutter and firebase.
             </p>
 
             <div>
-              <VideoTileIcon href='http://github.com/theindianappguy/FlutterNewsApp'>
+              <VideoTileIcon
+                href='https://github.com/theindianappguy/FlutterChatAppTutorial'
+                target='_blank'
+              >
                 <img src='https://firebasestorage.googleapis.com/v0/b/memorygame247.appspot.com/o/github-white.svg?alt=media&token=9372cc8a-3752-473d-aabb-55f4b831dc19' />
               </VideoTileIcon>
 
-              <VideoTileIcon href='http://github.com/theindianappguy/FlutterNewsApp'>
+              <VideoTileIcon
+                href='https://www.youtube.com/watch?v=FTju8w4zEno&list=PLBxWkM8PLHcpeDOAkvzH5ROrE4uJ9fa7Q&index=4'
+                target='_blank'
+              >
+                <img src='https://firebasestorage.googleapis.com/v0/b/memorygame247.appspot.com/o/youtube.svg?alt=media&token=b24a4fa1-ca6d-4fc9-b86d-ea11591541c5' />
+              </VideoTileIcon>
+            </div>
+          </VideoTile>
+
+          {/*  */}
+          <VideoTile>
+            <VideoTileImagePlayIcon src='https://firebasestorage.googleapis.com/v0/b/memorygame247.appspot.com/o/play-button.svg?alt=media&token=a9681e4c-143f-44ee-b45f-26ab9db0ab9d' />
+            <VideoTileImage src='https://user-images.githubusercontent.com/55942632/112452816-08066f80-8d7d-11eb-99fa-49bfe26da6ff.png' />
+            <AboutCourseTitle>
+              Build ToDo Web App Made with Flutter & Firebase
+            </AboutCourseTitle>
+            <p>
+              Do you know we can build web apps with flutter well let's make
+              that reality, Today we will learn how to build a todo web app with
+              Flutter and firebase.
+            </p>
+
+            <div>
+              <VideoTileIcon
+                href='https://github.com/theindianappguy/todowebappp'
+                target='_blank'
+              >
+                <img src='https://firebasestorage.googleapis.com/v0/b/memorygame247.appspot.com/o/github-white.svg?alt=media&token=9372cc8a-3752-473d-aabb-55f4b831dc19' />
+              </VideoTileIcon>
+
+              <VideoTileIcon
+                href='https://www.youtube.com/watch?v=M7z-Zctu6vA&list=PLBxWkM8PLHcqtJvdYz0rR23XblqiHHtaT'
+                target='_blank'
+              >
                 <img src='https://firebasestorage.googleapis.com/v0/b/memorygame247.appspot.com/o/youtube.svg?alt=media&token=b24a4fa1-ca6d-4fc9-b86d-ea11591541c5' />
               </VideoTileIcon>
             </div>
